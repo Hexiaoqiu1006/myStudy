@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
-timezone: ''
+title: 技术分享博客 🚀
+subtitle: '代码改变世界，思维塑造未来'
+description: '一个专注于前端开发、技术分享和学习成长的个人博客'
+keywords: '前端开发,JavaScript,React,Vue,技术博客,编程教程'
+author: 博主
+language: zh-CN
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -90,13 +90,18 @@ pagination_dir: page
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
 include:
+  - css/custom.css
+  - css/homepage.css
+  - css/home-enhancement.css
+  - js/script.js
+  - js/home-enhancement.js
 exclude:
 ignore:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
